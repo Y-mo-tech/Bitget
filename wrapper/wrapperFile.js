@@ -7,7 +7,6 @@ function verifyfun(req, res, next){
     if(exchange === "Bitget"){
         req.controllerName = "path1"
     }
-    console.log("verify fun ke andr 2222")
     next();
 }
 
